@@ -10,11 +10,11 @@ function App() {
       <form>
     <div className="mb-5 ">
       <label  className="form-label">Email </label>
-      <input type="email" className="form-control"  autocomplete="off"/>
+      <input type="email" className="form-control"  autoComplete="off"/>
     </div>
     <div className="mb-3">
       <label className="form-label">Password</label>
-      <input type="password" className="form-control"  autocomplete="off"/>
+      <input type="password" className="form-control"  autoComplete="off"/>
     </div>
     
       <button type="submit" className="btn btn-primary" onClick={sayHello}>Submit</button>
